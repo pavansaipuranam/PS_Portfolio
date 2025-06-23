@@ -1,0 +1,551 @@
+/* .home {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+
+.video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.content {
+  margin-left: 0%;
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 255, 153, 0.1);
+  
+  
+}
+
+.profileImage {
+  width: 350px;
+  height: 560px;
+  object-fit: cover;
+  border: 3px solid #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding-left: -20%;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  padding-left: -15%;
+  margin-left: -27%;
+  margin-top: -8%;
+}
+
+.text p {
+  font-size: 1.25rem;
+  margin-left: -13.2%;
+  text-align: start;
+}
+
+.green {
+  color: #0bde60; 
+}
+
+.resumeButton {
+  display: inline-block;
+  margin-top: 1.3rem;
+  margin-left: -98%;
+  padding: 0.75rem 1.5rem;
+  background-color: #26f173;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.resumeButton:hover {
+  background-color: #1bc95e;
+  transform: scale(1.05);
+}
+
+.typed {
+  font-size: 30Px;
+  margin-top: 1rem;
+  color: #26f173;
+  font-weight: 500;
+  display: block;
+  min-height: 30px;
+  text-align: start;
+  margin-left: -13%;
+}
+
+.heroButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #26f173;
+  color: black;
+  padding: 0.6rem 1.8rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.heroButton:hover {
+  background-color: #00af43;
+  transform: scale(1.05);
+}
+.buttonColumn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: -92px;
+}
+
+.greener{
+  color: #26f173;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .text p, .text h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .typed {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .buttonColumn {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .profileImage {
+    width: 80%;
+    margin-top: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .text h1 {
+    font-size: 1.8rem;
+  }
+
+  .typed {
+    font-size: 1.2rem;
+  }
+
+  .heroButton {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
+
+  .buttonColumn {
+    flex-direction: column;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+} */
+
+/* 
+.home {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 255, 153, 0.1);
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.profileImage {
+  width: 280px;
+  height: auto;
+  object-fit: cover;
+  border: 3px solid #000000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+  max-width: 600px;
+}
+
+.text h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.text p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.green {
+  color: #0bde60;
+}
+
+.greener {
+  color: #26f173;
+  font-weight: bold;
+}
+
+.typed {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #26f173;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+}
+
+.heroButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #26f173;
+  color: black;
+  padding: 0.6rem 1.4rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.heroButton:hover {
+  background-color: #00af43;
+  transform: scale(1.05);
+}
+
+.buttonColumn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+
+@media (max-width: 1024px) {
+  .content {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 6rem;
+  }
+
+  .text {
+    text-align: center;
+    margin-top: -3rem;
+  }
+
+  .text p, .text h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .typed {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .buttonColumn {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .profileImage {
+    width: 200px;
+    height: auto;
+    margin-top: -3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text h1 {
+    font-size: 1.8rem;
+    margin-top: -1rem;
+  }
+
+  .typed {
+    font-size: 1.2rem;
+  }
+
+  .heroButton {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+    margin-bottom: 0rem;
+  }
+
+  .buttonColumn {
+    flex-direction: column;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+
+  .profileImage {
+    width: 200px;
+    height: auto;
+  }
+} */
+
+.home {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  padding-top: 2.5rem;
+  padding-left: 1.2rem;
+  padding-right: 1rem;
+}
+
+.video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  padding: 0rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 255, 153, 0.1);
+  flex-wrap: wrap;
+  max-width: 1010px;
+  width: 100%;
+  height: 550px;
+}
+
+.profileImage {
+  width: 290px;
+  height: 480px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding-left: -20%;
+}
+
+.text {
+  max-width: 600px;
+  flex: 1;
+}
+
+.text h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  margin-top: -2rem;
+}
+
+.text p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.green {
+  color: #0bde60;
+}
+
+.greener {
+  color: #26f173;
+  font-weight: bold;
+}
+
+.typed {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #26f173;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  min-height: 2rem;
+}
+
+.heroButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #26f173;
+  color: black;
+  padding: 0.6rem 1.4rem;
+  margin: 0.5rem 0.5rem 0 0;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.heroButton:hover {
+  background-color: #00af43;
+  transform: scale(1.05);
+}
+
+.buttonColumn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    gap: 3rem;
+    padding: 1.5rem;
+  }
+
+  .profileImage {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    height: auto;
+    /* margin-top: 4rem; */
+    margin: 4rem 2rem 0rem 1.8rem;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .text p,
+  .text h1 {
+    text-align: center;
+  }
+
+  .typed {
+    text-align: center;
+  }
+
+  .buttonColumn {
+    justify-content: center;
+  }
+
+  .profileImage {
+    width: auto;
+    height: auto;
+    padding-top: -8rem;
+    margin-top: -3rem;
+    margin: -3rem 1rem -3rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text h1 {
+    font-size: 1.8rem;
+  }
+
+  .typed {
+    font-size: 1.2rem;
+  }
+
+  .heroButton {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
+
+  .buttonColumn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+
+  .profileImage {
+    width: 240px;
+    height: auto;
+    padding-top: -8rem;
+    margin-top: -3rem;
+    margin: -3rem 1rem -3rem 1rem;
+  }
+}
+
