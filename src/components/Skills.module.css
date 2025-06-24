@@ -58,6 +58,13 @@
   font-weight: 500;
 }
 
+.green {
+  color: #0bde60;
+}
+
+.white {
+  color: #ffffff;
+}
 
 @media (max-width: 1024px) {
   .container {

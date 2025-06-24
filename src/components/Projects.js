@@ -175,7 +175,7 @@ const cardVariants = {
 const Projects = () => (
   <section id="projects" className={styles.projects}>
     <h2>
-      <span className={styles.green}>Projects</span>
+      <span className={styles.green}>Projects</span> Vault
     </h2>
 
     <div className={styles.projectGrid}>

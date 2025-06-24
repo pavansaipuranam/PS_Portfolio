@@ -67,28 +67,28 @@ const internships = [
     Year: "ChatGPT & Gen AI",
     company: "BlackBuck Engineers",
     duration: "May 2025 - July 2025",
-    description: "Worked on Java Spring Boot microservices and contributed to real-time logistics platform development.",
+    description: "Completed a hands-on internship at Blackbucks on ChatGPT & GenAI and certified, build a multilingual chatbot PolyGlot using Google Gemini.",
     certificate: "/certificates/BLACKBUCKS_CERTIFICATE.pdf"
-  },
-  {
-    Year: "Artificial Intelligence",
-    company: "Aimers",
-    duration: "May 2024 - Jul 2024",
-    description: "Learned AI fundamentals, developed mini ML projects, and completed certification on AI integration.",
-    certificate: "/certificates/apssdc.pdf"
   },
   {
     Year: "Full Stack Java",
     company: "Techwing",
     duration: "Nov 2023 - Aug 2024",
-    description: "Interned as a Python developer building automation scripts for client reporting and data processing.",
+    description: "Successfully pursued a Java Full Stack internship at Techwing and certified as a Java IT Specialist, building frontend projects and a full stack Java application.",
     certificate: "/certificates/Java_Certification.pdf"
+  },
+  {
+    Year: "AI & ML",
+    company: "AIMERS Society",
+    duration: "May 2024 - Jul 2024",
+    description: "Acquired AI fundamentals, developed mini ML projects, and certified as a Artificial Inteligence & Mechine Learning intern from AIMER Society.",
+    certificate: "/certificates/AIMERS.pdf"
   },
   {
     Year: "Django",
     company: "APSSDC",
-    duration: "May 2023 - Jul 2022",
-    description: "Learned AI fundamentals, developed mini ML projects, and completed certification on AI integration.",
+    duration: "May 2023 - Jul 2023",
+    description: "Skilled in Django and developed projects with CRUD operations, including an Orphanage Management system with features to enhance operational efficiency.",
     certificate: "/certificates/DJANGO_CERTIFICATE.pdf"
   },
 ];
@@ -123,7 +123,7 @@ const Internships = () => (
     variants={containerVariants}
   >
     <motion.h2 variants={entryVariants} className={styles.white}>
-      <span className={styles.heading}>Internships</span> Timeline
+      <span className={styles.heading}>Internships</span> & Certifications
     </motion.h2>
 
     <div className={styles.container}>

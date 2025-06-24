@@ -29,13 +29,13 @@
 
 .timeline {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   gap: 2rem;
 }
 
 .entry {
-  width: 5cm;
+  width: 5.5cm;
   position: relative;
   padding-top: 2rem;
   text-align: left;

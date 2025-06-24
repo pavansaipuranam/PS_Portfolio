@@ -369,7 +369,7 @@
   justify-content: center;
   color: white;
   overflow: hidden;
-  padding-top: 2.5rem;
+  padding-top: 1rem;
   padding-left: 1.2rem;
   padding-right: 1rem;
 }
@@ -433,7 +433,7 @@
 }
 
 .typed {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 1rem;
   color: #26f173;
   font-weight: 500;
@@ -523,7 +523,8 @@
   }
 
   .typed {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    /* font-weight: bold; */
   }
 
   .heroButton {

@@ -1,6 +1,5 @@
 .navbar {
   background: transparent;
-  /* background-color: rgba(0, 0, 0, 0.5); */
   padding: 0.5rem 2rem 0.4rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -55,11 +54,113 @@
   cursor: pointer;
   margin-right: 5%;
 }
+/* 
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .hamburger {
+    display: block;
+    align-self: flex-end;
+    margin-right: 12%;
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+
+  .navList {
+    position: absolute;
+    top: 100px; 
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: none;
+    padding: 1rem 0;
+    gap: 1.5rem;
+    z-index: 99;
+  }
+
+  .active {
+    display: flex;
+  }
+
+  .navList li {
+    text-align: center;
+  }
+
+  .navList li a {
+    font-size: 16px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .logo {
+    font-size: 1.6rem;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+  }
+
+  .navList {
+    position: absolute;
+    top: 70px; 
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: none;
+    padding: 1rem 0;
+    gap: 1.2rem;
+    z-index: 99;
+  }
+
+  .active {
+    display: flex;
+  }
+
+  .navList li {
+    text-align: center;
+  }
+
+  .navList li a {
+    font-size: 16px;
+  }
+}
 
 
+/* 
 @media (max-width: 768px) {
   .hamburger {
     display: block;
+    margin-top: -2rem;
   }
 
   .navList {
@@ -81,4 +182,37 @@
     margin: 1rem 0;
     text-align: center;
   }
+  .logo{
+    margin-left: -40%;
+  }
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .navList {
+    top: 60px;
+    width: 100%;
+    gap: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  .navList li a {
+    font-size: 16px;
+  }
+
+  .hamburger {
+    font-size: 1.6rem;
+    margin-right: 2rem;
+    margin-top: 0.8rem;
+  }
+} */
