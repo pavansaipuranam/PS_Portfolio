@@ -16,4 +16,7 @@ Email Hosting:
 HOSTING & DEPLOYMENT:
 --------------------
 1. GitHub (For repo management)
-2. Vercel (For Hosting) 
+2. Vercel (For Hosting)
+
+
+![pavansai-portfolio vercel app_](https://github.com/user-attachments/assets/a6cde521-c423-4820-94eb-1d7cfd11e909)
