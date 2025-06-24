@@ -3,7 +3,7 @@ const projects = [
     title: "Portfolio Website (React JS)",
     description: "A personal portfolio built using React and HTML and CSS.",
     date: "11-06-2025",
-    link: "https://example.com",
+    link: "https://github.com/pavansaipuranam/PS_Portfolio",
     image: "/projects/portfolio.png",
   },
   {
