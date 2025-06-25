@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
-import profileImage from "../assets/profile.png";
+import profileImage from "../assets/profile1.0.png";
 import resume from "../assets/resume.pdf";
 import { ReactTyped } from "react-typed";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
