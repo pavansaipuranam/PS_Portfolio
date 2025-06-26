@@ -7,7 +7,7 @@ const projects = [
     image: "/projects/portfolio.png",
   },
   {
-    title: "PolyGlot (AI,Html & Css)",
+    title: "PolyGlot (AI, HTML & CSS)",
     description: "A multi-Lingual AI ChatBot for general purpose Assistance.",
     date: "10-04-2025",
     link: "https://github.com/pavansaipuranam/PolyGlot",
