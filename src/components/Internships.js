@@ -67,7 +67,7 @@ const internships = [
     Year: "ChatGPT & Gen AI",
     company: "BlackBuck Engineers",
     duration: "May 2025 - July 2025",
-    description: "Completed a hands-on internship at Blackbucks on ChatGPT & GenAI and certified, build a multilingual chatbot PolyGlot using Google Gemini.",
+    description: "Completed a hands-on internship at Blackbucks focused on ChatGPT & GenAI, developed a multilingual chatbot called PolyGlot using Google Gemini.",
     certificate: "/certificates/BLACKBUCKS_CERTIFICATE.pdf"
   },
   {
@@ -81,7 +81,7 @@ const internships = [
     Year: "AI & ML",
     company: "AIMERS Society",
     duration: "May 2024 - Jul 2024",
-    description: "Acquired AI fundamentals, developed mini ML projects, and certified as a Artificial Inteligence & Mechine Learning intern from AIMER Society.",
+    description: "Acquired AI fundamentals, developed mini ML projects, and certified as an Artificial Inteligence & Mechine Learning intern from AIMER Society.",
     certificate: "/certificates/AIMERS.pdf"
   },
   {
@@ -123,7 +123,7 @@ const Internships = () => (
     variants={containerVariants}
   >
     <motion.h2 variants={entryVariants} className={styles.white}>
-      <span className={styles.heading}>Internships</span> & Certifications
+      <span className={styles.heading}>Internships</span> & Certificates
     </motion.h2>
 
     <div className={styles.container}>

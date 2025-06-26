@@ -68,7 +68,7 @@ const About = () => (
       variants={fadeIn}
       custom={1}
     >
-      <p>
+      {/* <p>
         I’m Pavan Sai Puranam, a Computer Science graduate and passionate Software & frontend developer with a strong foundation in full stack development and AI technologies. I specialize in building smart, scalable, and user-friendly web applications using modern tools like React, HTML, CSS, and JavaScript.
         Continuously learning and adapting to the latest in web development and technology, I’m driven to create impactful, real-world solutions through clean and efficient code.
       </p>
@@ -78,7 +78,12 @@ const About = () => (
       </p>
       <p>
         Fluent in English, Telugu, and Hindi, I bring strong communication, adaptability, and problem-solving skills to any team. When I’m not coding, you’ll find me drawing, exploring new places, or diving deep into tech trends.
+      </p> */}
+      <p>
+        I’m Pavan Sai Puranam, a Computer Science graduate passionate about software and full-stack development and AI technologies. I specialize in building scalable, user-friendly web applications using modern tools like React, HTML, CSS, and JavaScript. Continuously learning and adapting, I aim to create impactful solutions through clean, efficient code. 
+        
       </p>
+      <p>I'm a certified Java IT Specialist and completed my internships with organizations such as BlackBuck Engineers, Techwing, and APSSDC, gaining hands-on experience in Java, Python, and AI. Fluent in English, Telugu, and Hindi, I bring strong communication, adaptability, and problem-solving skills to every team. Outside of coding, I enjoy drawing, exploring new places, and staying updated with tech trends.</p>
 
       <motion.div
         className={styles.infoGrid}

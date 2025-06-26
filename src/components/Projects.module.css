@@ -89,15 +89,6 @@ button:hover {
   color: #0bde60;
 }
 
-/* @media (max-width: 480px) {
-  .card h3 {
-    font-size: 1.3rem;
-  }
-
-  .card p {
-    font-size: 0.9rem;
-  }
-} */
 
 @media (max-width: 1024px) {
   .projectGrid {

@@ -46,7 +46,7 @@ const skills = [
   { name: "HTML", icon: "/skills/html-5.png" },
   { name: "CSS", icon: "/skills/css-3.png" },
   { name: "JavaScript", icon: "/skills/java-script.png" },
-  { name: "React", icon: "/skills/react.png" },
+  { name: "React JS", icon: "/skills/react.png" },
   { name: "MySQL", icon: "/skills/mysql.png" },
   { name: "Django", icon: "/skills/django.png" },
   { name: "Github", icon: "/skills/github2.png" },

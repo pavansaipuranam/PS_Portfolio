@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Portfolio Website (React JS)",
-    description: "A personal portfolio built using React and HTML and CSS.",
+    description: "A personal portfolio built using React JS and HTML and CSS.",
     date: "11-06-2025",
     link: "https://github.com/pavansaipuranam/PS_Portfolio",
     image: "/projects/portfolio.png",
@@ -21,7 +21,7 @@ const projects = [
     image: "/projects/orphanage.png",
   },
   {
-    title: "Netflix Clone (HTML, Css & Js)",
+    title: "Netflix Clone (HTML, CSS & JS)",
     description: "A Clone project replicating design & interface of Netflix.",
     date: "30-01-2024",
     link: "https://github.com/pavansaipuranam/Netflix_Clone",

@@ -22,11 +22,11 @@ const Home = () => (
           <ReactTyped
             strings={[
               "Computer Science Graduate",
-              "Software Developer",
               "Frontend Developer",
               "Full Stack Enthusiast",
               "React Enthusiast",
-              "AI & Tech Explorer",
+              "Software Developer",
+              "AI and Tech Explorer",
             ]}
             typeSpeed={50}
             backSpeed={30}
