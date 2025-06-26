@@ -81,7 +81,7 @@ const internships = [
     Year: "AI & ML",
     company: "AIMERS Society",
     duration: "May 2024 - Jul 2024",
-    description: "Acquired AI fundamentals, developed mini ML projects, and certified as an Artificial Inteligence & Mechine Learning intern from AIMER Society.",
+    description: "Acquired AI fundamentals, developed mini ML projects, and certified as an Artificial Inteligence & Machine Learning intern from AIMER Society.",
     certificate: "/certificates/AIMERS.pdf"
   },
   {
